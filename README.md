@@ -1,4 +1,4 @@
-# SmartChange - JunctionX Seoul 2021
+# Advancing_changing
 
  > AI-powered web application able to track changes in urban landscape
 
