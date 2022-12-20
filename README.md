@@ -20,21 +20,9 @@
 ...
 ```
 
-### Demo
-
-![Demo](demo.gif)
-
-Check [presentation](https://docs.google.com/presentation/d/e/2PACX-1vQblQ-zYomu3_cA2DgpTf8T95ekNDYvFl-_1eSlZwlufQGqlIUAByPfBlGKA0XYTljTGVOzCoKzH4m2/pub?start=false&loop=false&delayms=3000)
-
 ### How to use
 
 0. Install CUDA Toolkit and cudNN.
-
-I personally use [CUDA 10.0](https://developer.nvidia.com/cuda-10.0-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exenetwork) and [cudNN 7.6.4](https://developer.nvidia.com/rdp/cudnn-archive).
-
-During CUDA Toolkit installation I recommend you to choose `Custom installation` and disable all components except CUDA (also disable `Visual Studio Integration` in the CUDA component tree first) to avoid rewriting new drivers with old ones (since we're gonna install older version of CUDA) and minimize possible problems (especially with `Visual Studio Integration`)
-
-Don't forget to add cudNN to `%PATH%` variable.
 
 1. Set up your environment. I recommend you to use anaconda for it since we're doing some machine learning:
 ```bash
@@ -75,16 +63,3 @@ It is usually run on `http://127.0.0.1:8080/` (open in your browser)
  
     5.4. Get result and download by clicking `Download` button
 
-### FAQ
-
-> **What Python do you use for this project?**
-
-Python 3.7 (since we're using PyTorch)
-
-> **How to set up conda for IntelliJ IDEA?**
-
-`File` -> `Settings` -> `Project` -> `Project Interpreter` -> `Add` -> Pick up new conda environment or use existing
-
-> **Why recognition is so inaccurate?**
- 
-We didn't have much time during hackathon, so we trained it only on 22 images.
