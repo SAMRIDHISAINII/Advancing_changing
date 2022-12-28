@@ -1,7 +1,0 @@
-
-
-urban{test_value}
-
-Go to website.
-upload the urban landscape image.
-test
