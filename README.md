@@ -12,7 +12,6 @@
 ### Structure
 ```Python
 
-
 .
 ├── app
 │   └── unet # UNET++ files
